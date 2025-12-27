@@ -7,9 +7,9 @@ name = "printer-maintenance-manager"
 version = "1.0.0"
 description = "Moonraker plugin for printer usage tracking and maintenance management"
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
 authors = [
-  { name = "Your Name", email = "you@email.com" }
+  { name = "harrynow83" }
 ]
 requires-python = ">=3.8"
 
@@ -22,3 +22,6 @@ dependencies = [
 Homepage = "https://github.com/harrynow83/printer-maintenance-manager"
 Repository = "https://github.com/harrynow83/printer-maintenance-manager"
 Issues = "https://github.com/harrynow83/printer-maintenance-manager/issues"
+
+[tool.setuptools]
+packages = ["printer_maintenance_manager"]
