@@ -1,0 +1,11 @@
+alerts:
+  telegram:
+    enabled: false
+    bot_token: ""
+    chat_id: ""
+
+maintenance:
+  nozzle_clean: 100
+  belts_check: 300
+  lubrication: 500
+  hotend_overhaul: 1000
