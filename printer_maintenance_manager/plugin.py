@@ -10,6 +10,8 @@ class PrinterMaintenanceManager:
     def __init__(self, config):
         self.server = config.get_server()
         self.printer = config.get_name()
+        self.server.log_info("Printer Maintenance Manager loaded")
+
 
         init_db(self.printer)
 
@@ -93,3 +95,4 @@ class PrinterMaintenanceManager:
 
 def load_component(config):
     return PrinterMaintenanceManager(config)
+
